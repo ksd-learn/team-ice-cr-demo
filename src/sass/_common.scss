@@ -1,1 +1,120 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+/* глобальный border-box */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* сброс дефолтных отступов и padding */
+h1,
+h2,
+h3,
+ul,
+p {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* заголовки */
+h2 {
+    color: black;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+/* img - уберем нижний просвет */
+img {
+    display: block;
+}
+
+/* класс для сокрытия элемента (блока) */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* дефолтные свойства svg-иконок */
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+/* текст в body */
+body {
+    color: black;
+    background-color: green;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+}
+
+/* стилизация списков<li> */
+.item {
+    list-style: none;
+}
+
+/* стилизация ссылок<a> */
+.link {
+    text-decoration: none;
+}
+
+/* блочная разметка CONTAINER и SECTION */
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (max-width: 767px) {
+        max-width: 480px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 1200px;
+    }
+}
+
+.section {
+    @media screen and (max-width: 1199px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
