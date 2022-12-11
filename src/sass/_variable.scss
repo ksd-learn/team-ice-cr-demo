@@ -1,15 +1,26 @@
-/* переменные */
+/* переменные - цвет*/
+$backgr-page-and-reviews: #84A178;
+$backgr-modal-menu: #97AF8D;
+$backgr-modal-ingredients-green: #9CBE8F;
+$backgr-product-green: #AEC6A5;
+$backgr-substrate-green: rgba(156, 190, 143, 0.7);
+$backgr-product-yellow: #EFD478;
+$backgr-substrate-yellow: rgba(248, 210, 78, 0.7);
+$backgr-product-brown: #D6936D;
+$backgr-substrate-brown: rgba(213, 117, 63, 0.7);
 
-$title: #212121;
-$text: #757575;
-$a-hover-focus--btn: #2196F3;
-$btn-hover-focus: #188CE8;
-$text-backgr-white: #FFFFFF;
-$text-gray: rgba(255, 255, 255, 0.6);
-$backgr-black: #2F303A;
-$backgr-prior-service: #F5F5F5;
-$backgr-team: #F5F4FA;
-$icon: #AFB1B8;
-$icon-backgr: rgba(255, 255, 255, 0.1);
-$black: #000000;
-$border: #EEEEEE;
+
+$text-and-backgr-white-grey: #FCFCFC;
+$white: #FFFFFF;
+
+$text-black: #131313;
+$black: black;
+
+/* для кнопок */
+$backgr-default: #F8D24E;
+$backgr-hover: #0A8817;
+$backgr-disabled: #ABABAB;
+
+
+
+
